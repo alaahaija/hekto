@@ -30,11 +30,66 @@
     padding: 8px 13px;
     background-color: var(--primaryColor);
 }
+.header .bar{
+    display: none;
+}
+/* .................FOOTER.................. */
+.footer{
+    background-color: #EEEFFB;
+}
+/* .................LEFT SIDE FOOTER ................. */
+.left-side{
+    justify-content: center;
+    align-items: start;
+    padding: 80px 0;
+    gap: 35px;
+}
+.enter-email form{
+    border: 1px solid #fff;
+    background-color: #fff;
+    border-radius: 5px;
+}
+.enter-email input,.enter-email button{
+    border: none;
+    outline: border;
+}
+.enter-email input{
+    width: 223px;
+    padding-left: 3px;
+    font-family: var(--primaryFont);
+}
+.enter-email button{
+    font-family: var(--tertiaryFont);
+}
+.footer h2{
+    font-size: 16px;
+    font-family: var(--primaryFont);
+    color: var(--footerColor);
+}
+.footer address{
+    font-family: var(--primaryFont);
+    color: var(--footerColor);
+}
+/*..................RIHGT SIDE FOOTER ...................*/
+.footer .right-side{
+    width: 60%;
+    justify-content: center;
+}
+.footer .footer-item h2{
+    color: #000;
+}
+.footer .footer-item nav{
+    font-family: var(--primaryFont);
+}
+.footer-item nav a{
+    color: var(--footerColor);
+}
 @media screen and (max-width: 1132px) {
     .list,.search{
         display: none;
     }
     .header .bar{
         display: block;
+        width: 30px;
     }
 }

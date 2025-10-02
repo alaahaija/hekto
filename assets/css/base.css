@@ -12,6 +12,7 @@ ul{
 :root{
     --primaryColor:#FB2E86;
     --successColor:#08D15F;
+    --footerColor:#8A8FB9;
     --primaryFont:"Lato", sans-serif;
     --secondaryFont:"Josefin Sans", sans-serif;
     --tertiaryFont:"Roboto", sans-serif;
@@ -19,6 +20,21 @@ ul{
 .d-f{
     display: flex;
     flex-wrap: wrap;
+}
+.flex-column{
+    flex-direction: column;
+}
+.gap-1{
+    gap: 5px;
+}
+.gap-2{
+    gap: 10px;
+}
+.gap-3{
+    gap: 15px;
+}
+.gap-4{
+    gap: 20px;
 }
 .row-between{
     justify-content: space-between;
@@ -39,10 +55,9 @@ ul{
 .btn{
     border: none;
     outline: border;
-    border-radius: 2px;
+    border-radius: 5px;
     padding: 16px 40px;
     color: #fff;
-    font-family: var(--secondaryFont);
 }
 .btn-primary{
     background-color: var(--primaryColor);
