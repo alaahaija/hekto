@@ -35,7 +35,35 @@
     display: none;
 }
 /*............................ END HEADER.................*/
+/* ........................... CLIENTS...................*/
 
+.clients{
+    padding: 50px 0px;
+}
+.clients .row-between{
+    flex-wrap: nowrap;
+    gap: 15px;
+    overflow-x:auto ;
+}
+.clients .logo{
+    width: calc((100% - 75px) / 6);
+}
+.clients .logo img{
+    width: 150px;
+    height: 150px;
+}
+
+@media screen and (max-width:1010px){
+    .clients .logo{
+        width: calc((100% - 30px) / 3);
+    }
+}
+@media screen and (max-width:400px) {
+    .clients .logo{
+        width: calc((100% - 15px) / 2);
+    }
+}
+/*...........................END CLIENTS.................*/
 /* ........................FOOTER......................... */
 .footer{
     background-color: #EEEFFB;
@@ -43,7 +71,6 @@
 .footer .row-between{
     gap: 20px;
 }
-/* ......LEFT SIDE FOOTER ....... */
 .left-side{
     justify-content: center;
     align-items: start;
@@ -76,7 +103,6 @@
     font-family: var(--primaryFont);
     color: var(--footerColor);
 }
-/*.......RIHGT SIDE FOOTER ......*/
 .right-side{
     width: calc((100% - 20px) / 2);
 }
@@ -107,7 +133,11 @@
         width: 30px;
     }
 }
+
 @media screen and (max-width: 992px){
+    .footer{
+        padding-bottom: 20px;
+    }
     .left-side, .right-side{
         width: 100%;
     }
@@ -118,5 +148,13 @@
     }
     .right-side .footer-item{
         width: 100%;
+    }
+}
+@media screen and (max-width:440px) {
+    .enter-email button{
+        padding: 8px 20px;
+    }
+    .enter-email input{
+        width: 160px;
     }
 }
