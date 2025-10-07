@@ -35,8 +35,26 @@
     display: none;
 }
 /*............................ END HEADER.................*/
+/*.............................NEWSLETTER................*/
+.newsletter{
+    background-image: url(./../img/public/newsletter.webp);
+    padding: 175px 0px;
+    text-align: center;
+    font-family: var(--secondaryFont);
+}
+.newsletter h2{
+    margin-bottom: 40px;
+    color: #151875;
+    font-size: 35px;
+}
+.newsletter .shopbtn{
+    transition: all .5s;
+}
+.newsletter .shopbtn:hover{
+    background-color: var(--successColor);
+}
+/*..............................END NEWSLETTER...........*/
 /* ........................... CLIENTS...................*/
-
 .clients{
     padding: 50px 0px;
 }
