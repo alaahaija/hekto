@@ -52,6 +52,9 @@ ul{
     width: 80%;
     margin: auto;
 }
+.text-center{
+    text-align: center;
+}
 .btn{
     border: none;
     outline: border;
