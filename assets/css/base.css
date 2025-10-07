@@ -68,3 +68,9 @@ ul{
 .btn-success{
     background-color:var(--successColor);
 }
+.text-primary{
+    color: var(--primaryColor);
+}
+.text-secondary{
+    color: #151875;
+}

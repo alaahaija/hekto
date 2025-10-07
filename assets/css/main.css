@@ -22,6 +22,7 @@
 .search input,.search button{
     border: none;
     outline: border;
+    cursor: pointer;
 }
 .search input{
     width: 223px;
@@ -65,6 +66,44 @@
 }
 .product-details{
     padding: 20px;
+    font-family: var(--primaryFont);
+    transition: all .6s;
+}
+.product:hover .product-details{
+    background-color: #2F1AC4;
+}
+.product-details h3{
+    transition: all .6s;
+}
+.product:hover h3{
+    color: #fff;
+}
+.product-details span{
+    transition: all .6s;
+}
+.product:hover span{
+    color: #fff;
+}
+.color{
+    width: 20px;
+    height: 6px;
+    border-radius: 10px;
+    border: none;
+    outline: none;
+    cursor: pointer;
+}
+.colo-one{
+    background-color: #05E6B7;
+}
+.colo-two{
+    background-color: #F701A8;
+}
+.colo-three{
+    background-color: #00009D;
+    transition: all .6s;
+}
+.product:hover .colo-three{
+    background-color: #FFEAC1;
 }
 @media screen and (max-width:360px){
     .featured .product{
