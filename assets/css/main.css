@@ -74,6 +74,7 @@
 .product .view-details{
     margin: auto;
     display: none;
+    cursor: pointer;
 }
 .product:hover .icon{
     display: block;
@@ -128,6 +129,28 @@
     }
 }
 /*.............................END FEATURED PRODUCTS..............*/
+/*.............................SHOPEX OFFER....................*/
+.shopex-offer{
+    padding: 25px 0px 85px 0px;
+    gap: 65px;
+}
+.shopex-offer .offer{
+    align-items: center;
+    flex: 1 0 250px;
+    text-align: center;
+    gap: 35px;
+}
+.shopex-offer h2{
+    font-size: 42px;
+    color: #151875;
+    font-family: var(--secondaryFont);
+    text-align: center;
+}
+.offer p{
+    color: #BBB6CE;
+    font-family: var(--primaryFont);
+}
+/*............................ENF SHOPEX OFFER.................*/
 /*.............................NEWSLETTER................*/
 .newsletter{
     background-image: url(./../img/public/newsletter.webp);
@@ -163,7 +186,6 @@
     width: 150px;
     height: 150px;
 }
-
 @media screen and (max-width:1010px){
     .clients .logo{
         width: calc((100% - 30px) / 3);
