@@ -51,7 +51,7 @@
     gap: 15px;
 }
 .featured .product{
-    flex:1 0 300px ;
+    flex:1 0 250px ;
     box-shadow: 0px 4px 4px #00000040;
     border-radius: 5px;
 }
@@ -63,6 +63,23 @@
     width: 200px;
     height: 200px;
     object-fit: contain;
+}
+.product .icons img{
+    width:25px ;
+    height: 25px;
+}
+.product .icon{
+    display: none;
+}
+.product .view-details{
+    margin: auto;
+    display: none;
+}
+.product:hover .icon{
+    display: block;
+}
+.product:hover .view-details{
+    display: block;
 }
 .product-details{
     padding: 20px;
