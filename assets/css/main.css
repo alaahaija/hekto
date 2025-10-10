@@ -36,6 +36,42 @@
     display: none;
 }
 /*............................ END HEADER.................*/
+/*.............................HERO......................*/
+.hero{
+    padding: 75px 0;
+    background-color: #F2F0FF;
+
+}
+.hero .text-content{
+    flex: 1 0 60%;
+    align-items: flex-start;
+    gap:30px ;
+    font-family: var(--secondaryFont);
+}
+.hero .text-content h2{
+    font-size: 52px;
+}
+.hero .text-content p{
+    font-family: var(--primaryFont);
+}
+.hero .text-content .color-p{
+    color: #8A8FB9;
+}
+.hero .hero-img{
+    flex: 1 0 40%;
+}
+.hero-img img{
+    width: 100%;
+}
+@media screen and (max-width:768px) {
+    .hero .text-content, .hero .hero-img{
+        flex: 1 0 50%;
+    }
+    .hero .text-content h2{
+        font-size: 35px;
+    }
+}
+/*...........................END HERO.........................*/
 /*.............................FEATURED PRODUCTS..............*/
 .featured{
     padding: 35px 0px;
