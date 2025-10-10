@@ -183,6 +183,7 @@
 }
 .lastest-products a{
     font-family: var(--primaryFont);
+    color: #151875;
 }
 .lastest-products .active{
     color: var(--primaryColor);
