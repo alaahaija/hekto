@@ -221,7 +221,6 @@
     height: 200px;
     object-fit: contain;
 }
-
 .last-product-info h3{
     font-family: var(--secondaryFont);
     color: #151875;
@@ -486,6 +485,48 @@
     color: var(--footerColor);
 }
 /*.......................... END FOOTER ...................*/
+/*..........................LASTEST BLOG...................*/
+.lastest-blog{
+    padding: 75px 0;
+}
+.lastest-blog h2{
+    font-family: var(--secondaryFont);
+    color: #151875;
+    font-size: 42px;
+    text-align: center;
+}
+.lastest-blog .row-between{
+    align-items: center;
+    justify-content: center;
+}
+.blog{
+    flex: 1 1 350px;
+}
+.blog-img img{
+    border-radius: 5px;
+    width: 100%;
+}
+.edited{
+    gap: 30px;
+}
+.blog-info h3{
+    font-family: var(--secondaryFont);
+    color: #151875;
+}
+.blog-info p{
+    font-family: var(--primaryFont);
+    color: #BBB6CE;
+}
+.blog-info a{
+    font-family: var(--primaryFont);
+    color: #151875;
+    text-decoration: underline;
+}
+.blog-info:hover h3,.blog-info:hover a{
+    color: var(--primaryColor);
+    transition: all .7s;
+}
+/*......................END LASTEST BLOG...................*/
 @media screen and (max-width: 1132px) {
     .list,.search{
         display: none;
